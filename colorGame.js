@@ -20,7 +20,13 @@ for(var i=0; i<squares.length; i++){
     //Adding an event listener to each square
     squares[i].addEventListener("click", function(){
         //Grab the color of the clicked square
+        var clickedColor = this.style.backgroundColor;
 
         //Compare the grabbed color with the pickedColor
-    })
+        if(clickedColor === pickedColor){
+            alert("You won!");
+        } else{
+            alert("Wrong!");
+        }
+    });
 }
