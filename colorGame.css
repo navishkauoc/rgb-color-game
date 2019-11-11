@@ -26,6 +26,7 @@ h1{
     background-color: steelblue;
     line-height: 1.1;
     padding: 20px 0;
+    font-family: "Montserrat", "Avenir";
 }
 
 #colorDisplay{
@@ -40,5 +41,27 @@ h1{
 }
 
 .selected{
-    background-color: blue;
+    color: white;
+    background-color: steelblue;
+}
+
+button{
+    border: none;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
 }
